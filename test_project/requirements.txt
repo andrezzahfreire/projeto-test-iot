@@ -1,0 +1,24 @@
+# pytest: framework para execução dos testes
+pytest==7.2.2
+
+# pytest-mock: para simular/mocks em testes com pytest
+pytest-mock==3.10.0
+
+# requests: para testar interações com a API (caso necessário)
+requests==2.31.0
+
+# pymysql ou psycopg2: para se conectar a bancos de dados MySQL ou PostgreSQL
+pymysql==1.0.2  # Para MySQL
+# psycopg2==2.9.6  # Para PostgreSQL
+
+# mock: biblioteca para criar objetos simulados (mock objects)
+mock==5.0.2
+
+# pytest-requests-mock: para mockar requisições HTTP em testes com pytest
+pytest-requests-mock==1.10.0
+
+# selenium: para testes de interação com UI (caso precise testar uma interface web)
+selenium==4.9.1
+
+# Faker: biblioteca para gerar dados falsos (fake data) para testes
+Faker==18.7.0
